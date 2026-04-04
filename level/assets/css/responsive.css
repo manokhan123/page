@@ -1,0 +1,84 @@
+@media screen and (max-width:767px) {
+    .container {
+        width: 720px;
+    }
+
+    .blog,
+    .header {
+        padding: 20px;
+
+        position: relative;
+    }
+
+    .header .toggler {
+        display: unset;
+        /* flex-basis:70% ; */
+        text-align: right;
+        color: #ee5057;
+        border: 2px solid black;
+        border-radius: 4px;
+        padding: 3px 6px;
+
+    }
+
+    .header .toggler i {
+        font-size: 25px;
+    }
+
+    .header .branding {
+        flex-basis: 30%;
+    }
+
+    .header .menu {
+        flex-direction: column;
+        width: 200px;
+        position: absolute;
+        background: white;
+        top: 100%;
+        right: 0;
+        z-index: 999;
+        box-shadow: 0px 0px 7px 0px rgba(214, 214, 214, 1);
+    }
+
+    .header .menu a {
+        padding: 15px;
+        border: none;
+    }
+
+    .header .menu a:first-child {
+        border: none;
+    }
+
+    .search-form .row {
+        row-gap: 10px;
+    }
+
+    .cards,
+    .board,
+    .blog-entries,
+    .blog-right .blog-description,
+    .footer-part,
+    .section-two .row {
+        flex-direction: column;
+    }
+
+    .blog-heading {
+        justify-content: center;
+    }
+
+    .blog-title {
+        text-align: center;
+    }
+
+    .footer {
+        padding: 130px 20px 70px;
+    }
+
+    .footer-left {}
+}
+
+@media screen and (max-width:524px) {
+    .container {
+        width: 100%;
+    }
+}
